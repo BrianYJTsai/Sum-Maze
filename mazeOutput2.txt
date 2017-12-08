@@ -1,0 +1,311 @@
+   Grid:
+      10   10   10   10  
+      10   100  100  100 
+      10   10   5    100 
+      100  100  5    100 
+      X    5    5    100 
+   history: [10]
+   start point: (4,0)
+   sum so far: 10
+
+Is this a goal state?
+No.  Can I move right?
+Yes!
+Paused...
+
+Problem is now:
+   Grid:
+      10   10   10   10  
+      10   100  100  100 
+      10   10   5    100 
+      100  100  5    100 
+      X    X    5    100 
+   history: [10, 5]
+   start point: (4,1)
+   sum so far: 15
+
+Is this a goal state?
+No.  Can I move right?
+Yes!
+Paused...
+
+Problem is now:
+   Grid:
+      10   10   10   10  
+      10   100  100  100 
+      10   10   5    100 
+      100  100  5    100 
+      X    X    X    100 
+   history: [10, 5, 5]
+   start point: (4,2)
+   sum so far: 20
+
+Is this a goal state?
+No.  Can I move right?
+Yes!
+Paused...
+
+Problem is now:
+   Grid:
+      10   10   10   10  
+      10   100  100  100 
+      10   10   5    100 
+      100  100  5    100 
+      X    X    X    X   
+   history: [10, 5, 5, 100]
+   start point: (4,3)
+   sum so far: 120
+
+Is this a goal state?
+No. Target exceeded:  abandoning path
+No.  Can I move up?
+Yes!
+Paused...
+
+Problem is now:
+   Grid:
+      10   10   10   10  
+      10   100  100  100 
+      10   10   5    100 
+      100  100  X    100 
+      X    X    X    100 
+   history: [10, 5, 5, 5]
+   start point: (3,2)
+   sum so far: 25
+
+Is this a goal state?
+No.  Can I move right?
+Yes!
+Paused...
+
+Problem is now:
+   Grid:
+      10   10   10   10  
+      10   100  100  100 
+      10   10   5    100 
+      100  100  X    X   
+      X    X    X    100 
+   history: [10, 5, 5, 5, 100]
+   start point: (3,3)
+   sum so far: 125
+
+Is this a goal state?
+No. Target exceeded:  abandoning path
+No.  Can I move up?
+Yes!
+Paused...
+
+Problem is now:
+   Grid:
+      10   10   10   10  
+      10   100  100  100 
+      10   10   X    100 
+      100  100  X    100 
+      X    X    X    100 
+   history: [10, 5, 5, 5, 5]
+   start point: (2,2)
+   sum so far: 30
+
+Is this a goal state?
+No.  Can I move right?
+Yes!
+Paused...
+
+Problem is now:
+   Grid:
+      10   10   10   10  
+      10   100  100  100 
+      10   10   X    X   
+      100  100  X    100 
+      X    X    X    100 
+   history: [10, 5, 5, 5, 5, 100]
+   start point: (2,3)
+   sum so far: 130
+
+Is this a goal state?
+No. Target exceeded:  abandoning path
+No.  Can I move up?
+Yes!
+Paused...
+
+Problem is now:
+   Grid:
+      10   10   10   10  
+      10   100  X    100 
+      10   10   X    100 
+      100  100  X    100 
+      X    X    X    100 
+   history: [10, 5, 5, 5, 5, 100]
+   start point: (1,2)
+   sum so far: 130
+
+Is this a goal state?
+No. Target exceeded:  abandoning path
+No.  Can I move down?
+No.  Can I move left?
+Yes!
+Paused...
+
+Problem is now:
+   Grid:
+      10   10   10   10  
+      10   100  100  100 
+      10   X    X    100 
+      100  100  X    100 
+      X    X    X    100 
+   history: [10, 5, 5, 5, 5, 10]
+   start point: (2,1)
+   sum so far: 40
+
+Is this a goal state?
+No.  Can I move right?
+No.  Can I move up?
+Yes!
+Paused...
+
+Problem is now:
+   Grid:
+      10   10   10   10  
+      10   X    100  100 
+      10   X    X    100 
+      100  100  X    100 
+      X    X    X    100 
+   history: [10, 5, 5, 5, 5, 10, 100]
+   start point: (1,1)
+   sum so far: 140
+
+Is this a goal state?
+No. Target exceeded:  abandoning path
+No.  Can I move down?
+Yes!
+Paused...
+
+Problem is now:
+   Grid:
+      10   10   10   10  
+      10   100  100  100 
+      10   X    X    100 
+      100  X    X    100 
+      X    X    X    100 
+   history: [10, 5, 5, 5, 5, 10, 100]
+   start point: (3,1)
+   sum so far: 140
+
+Is this a goal state?
+No. Target exceeded:  abandoning path
+No.  Can I move left?
+Yes!
+Paused...
+
+Problem is now:
+   Grid:
+      10   10   10   10  
+      10   100  100  100 
+      X    X    X    100 
+      100  100  X    100 
+      X    X    X    100 
+   history: [10, 5, 5, 5, 5, 10, 10]
+   start point: (2,0)
+   sum so far: 50
+
+Is this a goal state?
+No.  Can I move right?
+No.  Can I move up?
+Yes!
+Paused...
+
+Problem is now:
+   Grid:
+      10   10   10   10  
+      X    100  100  100 
+      X    X    X    100 
+      100  100  X    100 
+      X    X    X    100 
+   history: [10, 5, 5, 5, 5, 10, 10, 10]
+   start point: (1,0)
+   sum so far: 60
+
+Is this a goal state?
+No.  Can I move right?
+Yes!
+Paused...
+
+Problem is now:
+   Grid:
+      10   10   10   10  
+      X    X    100  100 
+      X    X    X    100 
+      100  100  X    100 
+      X    X    X    100 
+   history: [10, 5, 5, 5, 5, 10, 10, 10, 100]
+   start point: (1,1)
+   sum so far: 160
+
+Is this a goal state?
+No. Target exceeded:  abandoning path
+No.  Can I move up?
+Yes!
+Paused...
+
+Problem is now:
+   Grid:
+      X    10   10   10  
+      X    100  100  100 
+      X    X    X    100 
+      100  100  X    100 
+      X    X    X    100 
+   history: [10, 5, 5, 5, 5, 10, 10, 10, 10]
+   start point: (0,0)
+   sum so far: 70
+
+Is this a goal state?
+No.  Can I move right?
+Yes!
+Paused...
+
+Problem is now:
+   Grid:
+      X    X    10   10  
+      X    100  100  100 
+      X    X    X    100 
+      100  100  X    100 
+      X    X    X    100 
+   history: [10, 5, 5, 5, 5, 10, 10, 10, 10, 10]
+   start point: (0,1)
+   sum so far: 80
+
+Is this a goal state?
+No.  Can I move right?
+Yes!
+Paused...
+
+Problem is now:
+   Grid:
+      X    X    X    10  
+      X    100  100  100 
+      X    X    X    100 
+      100  100  X    100 
+      X    X    X    100 
+   history: [10, 5, 5, 5, 5, 10, 10, 10, 10, 10, 10]
+   start point: (0,2)
+   sum so far: 90
+
+Is this a goal state?
+No.  Can I move right?
+Yes!
+Paused...
+
+Problem is now:
+   Grid:
+      X    X    X    X   
+      X    100  100  100 
+      X    X    X    100 
+      100  100  X    100 
+      X    X    X    100 
+   history: [10, 5, 5, 5, 5, 10, 10, 10, 10, 10, 10, 10]
+   start point: (0,3)
+   sum so far: 100
+
+Is this a goal state?
+Solution found!
+[10, 5, 5, 5, 5, 10, 10, 10, 10, 10, 10, 10]

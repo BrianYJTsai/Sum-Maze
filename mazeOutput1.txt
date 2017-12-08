@@ -1,0 +1,305 @@
+   Grid:
+      15   26   16   22   2   
+      9    32   23   25   6   
+      10   42   36   18   3   
+      28   12   17   29   19  
+      X    5    11   42   14  
+   history: [8]
+   start point: (4,0)
+   sum so far: 8
+
+Is this a goal state?
+No.  Can I move right?
+Yes!
+Paused...
+
+Problem is now:
+   Grid:
+      15   26   16   22   2   
+      9    32   23   25   6   
+      10   42   36   18   3   
+      28   12   17   29   19  
+      X    X    11   42   14  
+   history: [8, 5]
+   start point: (4,1)
+   sum so far: 13
+
+Is this a goal state?
+No.  Can I move right?
+Yes!
+Paused...
+
+Problem is now:
+   Grid:
+      15   26   16   22   2   
+      9    32   23   25   6   
+      10   42   36   18   3   
+      28   12   17   29   19  
+      X    X    X    42   14  
+   history: [8, 5, 11]
+   start point: (4,2)
+   sum so far: 24
+
+Is this a goal state?
+No.  Can I move right?
+Yes!
+Paused...
+
+Problem is now:
+   Grid:
+      15   26   16   22   2   
+      9    32   23   25   6   
+      10   42   36   18   3   
+      28   12   17   29   19  
+      X    X    X    X    14  
+   history: [8, 5, 11, 42]
+   start point: (4,3)
+   sum so far: 66
+
+Is this a goal state?
+No.  Can I move right?
+Yes!
+Paused...
+
+Problem is now:
+   Grid:
+      15   26   16   22   2   
+      9    32   23   25   6   
+      10   42   36   18   3   
+      28   12   17   29   19  
+      X    X    X    X    X   
+   history: [8, 5, 11, 42, 14]
+   start point: (4,4)
+   sum so far: 80
+
+Is this a goal state?
+No.  Can I move right?
+No.  Can I move up?
+Yes!
+Paused...
+
+Problem is now:
+   Grid:
+      15   26   16   22   2   
+      9    32   23   25   6   
+      10   42   36   18   3   
+      28   12   17   29   X   
+      X    X    X    X    X   
+   history: [8, 5, 11, 42, 14, 19]
+   start point: (3,4)
+   sum so far: 99
+
+Is this a goal state?
+No.  Can I move right?
+No.  Can I move up?
+Yes!
+Paused...
+
+Problem is now:
+   Grid:
+      15   26   16   22   2   
+      9    32   23   25   6   
+      10   42   36   18   X   
+      28   12   17   29   X   
+      X    X    X    X    X   
+   history: [8, 5, 11, 42, 14, 19, 3]
+   start point: (2,4)
+   sum so far: 102
+
+Is this a goal state?
+No. Target exceeded:  abandoning path
+No.  Can I move down?
+No.  Can I move left?
+Yes!
+Paused...
+
+Problem is now:
+   Grid:
+      15   26   16   22   2   
+      9    32   23   25   6   
+      10   42   36   18   3   
+      28   12   17   X    X   
+      X    X    X    X    X   
+   history: [8, 5, 11, 42, 14, 19, 29]
+   start point: (3,3)
+   sum so far: 128
+
+Is this a goal state?
+No. Target exceeded:  abandoning path
+Couldn't move in any direction.  Backtracking.
+No.  Can I move down?
+No.  Can I move left?
+Couldn't move in any direction.  Backtracking.
+No.  Can I move up?
+Yes!
+Paused...
+
+Problem is now:
+   Grid:
+      15   26   16   22   2   
+      9    32   23   25   6   
+      10   42   36   18   3   
+      28   12   17   X    19  
+      X    X    X    X    14  
+   history: [8, 5, 11, 42, 29]
+   start point: (3,3)
+   sum so far: 95
+
+Is this a goal state?
+No.  Can I move right?
+Yes!
+Paused...
+
+Problem is now:
+   Grid:
+      15   26   16   22   2   
+      9    32   23   25   6   
+      10   42   36   18   3   
+      28   12   17   X    X   
+      X    X    X    X    14  
+   history: [8, 5, 11, 42, 29, 19]
+   start point: (3,4)
+   sum so far: 114
+
+Is this a goal state?
+No. Target exceeded:  abandoning path
+No.  Can I move up?
+Yes!
+Paused...
+
+Problem is now:
+   Grid:
+      15   26   16   22   2   
+      9    32   23   25   6   
+      10   42   36   X    3   
+      28   12   17   X    19  
+      X    X    X    X    14  
+   history: [8, 5, 11, 42, 29, 18]
+   start point: (2,3)
+   sum so far: 113
+
+Is this a goal state?
+No. Target exceeded:  abandoning path
+No.  Can I move down?
+No.  Can I move left?
+Yes!
+Paused...
+
+Problem is now:
+   Grid:
+      15   26   16   22   2   
+      9    32   23   25   6   
+      10   42   36   18   3   
+      28   12   X    X    19  
+      X    X    X    X    14  
+   history: [8, 5, 11, 42, 29, 17]
+   start point: (3,2)
+   sum so far: 112
+
+Is this a goal state?
+No. Target exceeded:  abandoning path
+Couldn't move in any direction.  Backtracking.
+No.  Can I move down?
+No.  Can I move left?
+Couldn't move in any direction.  Backtracking.
+No.  Can I move up?
+Yes!
+Paused...
+
+Problem is now:
+   Grid:
+      15   26   16   22   2   
+      9    32   23   25   6   
+      10   42   36   18   3   
+      28   12   X    29   19  
+      X    X    X    42   14  
+   history: [8, 5, 11, 17]
+   start point: (3,2)
+   sum so far: 41
+
+Is this a goal state?
+No.  Can I move right?
+Yes!
+Paused...
+
+Problem is now:
+   Grid:
+      15   26   16   22   2   
+      9    32   23   25   6   
+      10   42   36   18   3   
+      28   12   X    X    19  
+      X    X    X    42   14  
+   history: [8, 5, 11, 17, 29]
+   start point: (3,3)
+   sum so far: 70
+
+Is this a goal state?
+No.  Can I move right?
+Yes!
+Paused...
+
+Problem is now:
+   Grid:
+      15   26   16   22   2   
+      9    32   23   25   6   
+      10   42   36   18   3   
+      28   12   X    X    X   
+      X    X    X    42   14  
+   history: [8, 5, 11, 17, 29, 19]
+   start point: (3,4)
+   sum so far: 89
+
+Is this a goal state?
+No.  Can I move right?
+No.  Can I move up?
+Yes!
+Paused...
+
+Problem is now:
+   Grid:
+      15   26   16   22   2   
+      9    32   23   25   6   
+      10   42   36   18   X   
+      28   12   X    X    X   
+      X    X    X    42   14  
+   history: [8, 5, 11, 17, 29, 19, 3]
+   start point: (2,4)
+   sum so far: 92
+
+Is this a goal state?
+No.  Can I move right?
+No.  Can I move up?
+Yes!
+Paused...
+
+Problem is now:
+   Grid:
+      15   26   16   22   2   
+      9    32   23   25   X   
+      10   42   36   18   X   
+      28   12   X    X    X   
+      X    X    X    42   14  
+   history: [8, 5, 11, 17, 29, 19, 3, 6]
+   start point: (1,4)
+   sum so far: 98
+
+Is this a goal state?
+No.  Can I move right?
+No.  Can I move up?
+Yes!
+Paused...
+
+Problem is now:
+   Grid:
+      15   26   16   22   X   
+      9    32   23   25   X   
+      10   42   36   18   X   
+      28   12   X    X    X   
+      X    X    X    42   14  
+   history: [8, 5, 11, 17, 29, 19, 3, 6, 2]
+   start point: (0,4)
+   sum so far: 100
+
+Is this a goal state?
+Solution found!
+[8, 5, 11, 17, 29, 19, 3, 6, 2]
